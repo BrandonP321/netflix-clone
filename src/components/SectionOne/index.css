@@ -1,0 +1,20 @@
+.tv-wrapper {
+    position: relative;
+    height: 321px;
+    bottom: 50px;
+}
+
+.tv-wrapper img {
+    position: relative;
+    height: 390px;
+    width: auto;
+    z-index: 100;
+}
+
+.tv-wrapper video {
+    position: absolute;
+    left: 69px;
+    top: 81px;
+    height: 213px;
+    z-index: 5;
+}
