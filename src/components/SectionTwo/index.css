@@ -1,0 +1,47 @@
+.downloading-wrapper {
+    position: absolute;
+    bottom: 0;
+    left: 84px;
+    width: 330px;
+    height: 75px;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #222;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.downloading-wrapper .icon {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+    background-size: 100%;
+    width: 65px;
+}
+
+.downloading-wrapper .poster {
+    height: 90%;
+}
+
+.downloading-wrapper .text-wrapper {
+    width: 180px;
+}
+
+.downloading-wrapper .text-wrapper .title {
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.downloading-wrapper .text-wrapper .small-text {
+    font-size: .9rem;
+    color: #0071eb;
+    margin-top: 0;
+}
+
+.phone-wrapper {
+    height: 370px;
+}
+
+.phone-wrapper img {
+    height: 400px;
+}

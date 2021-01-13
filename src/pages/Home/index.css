@@ -11,6 +11,7 @@
 .section-flex-wrapper h2 {
     font-size: 3.125rem;
     margin-bottom: 0;
+    line-height: 60px;
 }
 
 .section-flex-wrapper p {
@@ -24,4 +25,5 @@
 
 .flex-contents {
     width: 46%;
+    position: relative;
 }
