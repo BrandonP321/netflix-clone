@@ -1,0 +1,22 @@
+.screens-pile-wrapper {
+    position: relative;
+}
+
+.screens-pile-wrapper img {
+    position: relative;
+    height: 400px;
+    z-index: 3;
+}
+
+.screens-pile-wrapper video {
+    position: absolute;
+    height: 184px;
+    top: 44px;
+    left: 100px;
+    z-index: 2;
+}
+
+.section-three-heading {
+    position: relative;
+    top: 97px;
+}

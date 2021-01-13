@@ -17,7 +17,7 @@ export default function SectionTwo() {
                     <div className='icon'></div>
                 </div>
             </div>
-            <div className='flex-contents right'>
+            <div className='flex-contents right section-two-heading'>
                 <h2>Download your shows to watch offline.</h2>
                 <p>Save your favorites easily and always have something to watch.</p>
             </div>

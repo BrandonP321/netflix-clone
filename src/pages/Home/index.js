@@ -4,6 +4,7 @@ import Header from '../../components/Header'
 import './index.css'
 import SectionOne from '../../components/SectionOne'
 import SectionTwo from '../../components/SectionTwo'
+import SectionThree from '../../components/SectionThree'
 
 export default function Home() {
     return (
@@ -18,6 +19,11 @@ export default function Home() {
             <div className='section-outer-wrapper'>
                 <div className='section-flex-wrapper'>
                     <SectionTwo />
+                </div>
+            </div>
+            <div className='section-outer-wrapper'>
+                <div className='section-flex-wrapper'>
+                    <SectionThree />
                 </div>
             </div>
         </>

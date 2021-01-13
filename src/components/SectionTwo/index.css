@@ -39,9 +39,16 @@
 }
 
 .phone-wrapper {
-    height: 370px;
+    height: 311px;
 }
 
 .phone-wrapper img {
+    position: relative;
+    bottom: 60px;
     height: 400px;
+}
+
+.section-two-heading {
+    position: relative;
+    top: 20px;
 }
