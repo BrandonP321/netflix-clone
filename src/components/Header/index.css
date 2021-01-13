@@ -1,0 +1,29 @@
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 50px;
+    z-index: 30000;
+}
+
+.header-logo {
+    height: 100%;
+}
+
+.header-logo-wrapper {
+    height: 45px;
+    fill: #e40914;
+}
+
+.sign-in-btn {
+    font-size: 1rem;
+    background-color: #e40914;
+    color: white;
+    border: none;
+    padding: 0 17px;
+    height: 34px;
+    border-radius: 5px
+}
