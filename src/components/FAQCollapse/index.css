@@ -1,0 +1,41 @@
+.faq-collapse {
+    color: white;
+    font-size: 1.625rem;
+    margin-bottom: 5px;
+    width: 820px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+}
+
+.faq-collapse .header {
+    margin-bottom: 2px;
+    background-color: #303030;
+    padding: 20px;
+}
+
+.faq-collapse .header:hover {
+    cursor: pointer;
+}
+
+.faq-collapse .header .icon {
+    font-size: 3.125rem;
+    float: right;
+    line-height: 23px;
+    height: 35px;
+    transition: transform .5s;
+}
+
+.faq-collapse .header .icon.close {
+    transform: rotate(135deg);
+}
+
+.faq-collapse .body {
+    background-color: #303030;
+    height: 0;
+    overflow: hidden;
+    transition: height .5s;
+}
+
+.faq-collapse .body .body-text-wrapper {
+    padding: 20px;
+}

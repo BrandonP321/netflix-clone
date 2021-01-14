@@ -1,4 +1,5 @@
 import React from 'react'
+import MembershipForm from '../MembershipForm'
 import './index.css'
 
 export default function index() {
@@ -11,11 +12,7 @@ export default function index() {
             <div className='hero-text-box'>
                 <h1>Unlimited movies, TV shows, and more.</h1>
                 <p className='sub-title'>Watch anywhere. Cancel anytime.</p>
-                <p className='small-text'>Ready to watch? Enter your email to create or restart your membership.</p>
-                <form>
-                    <input className='email-input' placeholder='Email address' />
-                    <button>GET STARTED</button>
-                </form>
+                <MembershipForm />
             </div>
         </div>
     )

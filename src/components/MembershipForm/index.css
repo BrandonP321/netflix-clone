@@ -1,0 +1,32 @@
+.membership-form {
+    width: 830px;
+    display: flex;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.membership-form input {
+    width: 67%;
+    height: 100%;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.membership-form button {
+    width: 33%;
+    /* font-size: 2rem; */
+    height: 100%;
+    padding: 0;
+    border: none;
+    font-size: 1.625rem;
+    color: white;
+    background-color: #e40914;
+}
+
+.small-text-membership-form {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}

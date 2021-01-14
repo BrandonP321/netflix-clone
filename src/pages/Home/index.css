@@ -1,3 +1,13 @@
+.faq-section h2 {
+    color: white;
+    font-size: 3.125rem;
+    text-align: center;
+}
+
+.faq-section .form-wrapper {
+    margin: 65px 0;
+}
+
 .section-flex-wrapper {
     display: flex;
     flex-wrap: wrap;
