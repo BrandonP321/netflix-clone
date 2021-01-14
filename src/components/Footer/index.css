@@ -1,0 +1,55 @@
+footer {
+    padding-top: 50px; 
+    padding-bottom: 20px;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    color: #757575;
+}
+
+.footer-flex {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-flex .column {
+    width: 25%;
+}
+
+.footer-flex .column a {
+    display: block;
+    color: #757575;
+    text-decoration: none;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.language-dropdown {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+}
+
+.language-dropdown select {
+    padding: 15px 10px 15px 45px;
+    background-color: transparent;
+    color: #999;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.language-dropdown i {
+    position: absolute;
+    font-size: 25px;
+    top: 12px;
+    left: 14px;
+}
+
+.questions-number {
+    font-size: 1em;
+    margin-bottom: 25px;
+}

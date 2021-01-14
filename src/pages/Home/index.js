@@ -7,6 +7,7 @@ import SectionTwo from '../../components/SectionTwo'
 import SectionThree from '../../components/SectionThree'
 import FAQCollapse from '../../components/FAQCollapse'
 import MembershipForm from '../../components/MembershipForm'
+import Footer from '../../components/Footer'
 
 export default function Home() {
     return (
@@ -70,6 +71,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }
