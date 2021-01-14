@@ -14,7 +14,8 @@
     justify-content: space-between;
     padding: 70px 0;
     color: white;
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -36,4 +37,11 @@
 .flex-contents {
     width: 46%;
     position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+    .flex-contents {
+        width: 100%;
+        text-align: center;
+    }
 }
