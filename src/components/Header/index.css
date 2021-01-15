@@ -27,3 +27,30 @@ header {
     height: 34px;
     border-radius: 5px
 }
+
+@media screen and (max-width: 1450px) {
+    .header-logo-wrapper {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .header-logo-wrapper {
+        height: 30px;
+    }
+}
+@media screen and (max-width: 650px) {
+    header {
+        padding: 15px;
+    }
+
+    .header-logo-wrapper {
+        height: 25px;
+    }
+
+    .sign-in-btn {
+        font-size: .9rem;
+        padding: 0 10px;
+        height: 30px;
+    }
+}

@@ -6,7 +6,7 @@ export default function SectionThree() {
         <>
             <div className='flex-contents left section-three-heading'>
                 <h2>Watch everywhere.</h2>
-                <p>Steam unlimited movies an TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+                <p className='section-sub-heading'>Steam unlimited movies an TV shows on your phone, tablet, laptop, and TV without paying more.</p>
             </div>
             <div className='flex-contents right'>
                 <div className='screens-pile-wrapper'>

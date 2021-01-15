@@ -6,7 +6,7 @@ export default function SectionOne() {
         <>
             <div className='flex-contents left'>
                 <h2>Enjoy on your TV.</h2>
-                <p>Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                <p className='section-sub-heading'>Watch on smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
             </div>
             <div className='flex-contents right'>
                 <div className='tv-wrapper'>

@@ -5,7 +5,8 @@
 }
 
 .faq-section .form-wrapper {
-    margin: 65px 0;
+    margin: 65px auto;
+    width: 90%;
 }
 
 .section-flex-wrapper {
@@ -34,6 +35,10 @@
     border-bottom: 9px solid #222;
 }
 
+.section-flex-wrapper.two {
+    padding-top: 0px;
+}
+
 .flex-contents {
     width: 46%;
     position: relative;
@@ -43,5 +48,35 @@
     .flex-contents {
         width: 100%;
         text-align: center;
+    }
+
+    .section-flex-wrapper.two {
+        flex-direction: column-reverse;
+    }
+
+    .section-flex-wrapper.one {
+        padding: 10px 0;
+    }
+
+    .section-flex-wrapper.three {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .section-outer-wrapper h2 {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+
+    .section-outer-wrapper .section-sub-heading {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section-outer-wrapper h2 {
+        font-size: 1.625rem;
+        line-height: 30px;
     }
 }

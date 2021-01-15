@@ -1,6 +1,7 @@
 footer {
     padding-top: 50px; 
     padding-bottom: 20px;
+    width: 100%;
 }
 
 .footer-content {
@@ -12,6 +13,7 @@ footer {
 
 .footer-flex {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
@@ -52,4 +54,16 @@ footer {
 .questions-number {
     font-size: 1em;
     margin-bottom: 25px;
+}
+
+@media screen and (max-width: 650px) {
+    .footer-flex .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer-flex .column {
+        width: 100%;
+    }
 }

@@ -7,7 +7,7 @@ export default function MembershipForm() {
             <p className='small-text-membership-form'>Ready to watch? Enter your email to create or restart your membership.</p>
             <form className='membership-form'>
                 <input className='email-input' placeholder='Email address' />
-                <button>GET STARTED</button>
+                <button>GET STARTED<i className='far fa-chevron-right'></i></button>
             </form>
         </>
     )

@@ -15,17 +15,17 @@ export default function Home() {
             <Header />
             <Hero />
             <div className='section-outer-wrapper'>
-                <div className='section-flex-wrapper'>
+                <div className='section-flex-wrapper one'>
                     <SectionOne />
                 </div>
             </div>
             <div className='section-outer-wrapper'>
-                <div className='section-flex-wrapper'>
+                <div className='section-flex-wrapper two'>
                     <SectionTwo />
                 </div>
             </div>
             <div className='section-outer-wrapper'>
-                <div className='section-flex-wrapper'>
+                <div className='section-flex-wrapper three'>
                     <SectionThree />
                 </div>
             </div>

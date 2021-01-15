@@ -1,22 +1,33 @@
 .screens-pile-wrapper {
     position: relative;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
 }
 
 .screens-pile-wrapper img {
     position: relative;
-    height: 400px;
+    height: auto;
+    width: 100%;
     z-index: 3;
 }
 
 .screens-pile-wrapper video {
     position: absolute;
-    height: 184px;
-    top: 44px;
-    left: 100px;
+    width: 61%;
+    top: 11%;
+    left: 19%;
     z-index: 2;
 }
 
 .section-three-heading {
     position: relative;
     top: 97px;
+}
+
+@media screen and (max-width: 1100px) {
+    .section-three-heading {
+        top: 0;
+    }
 }
