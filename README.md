@@ -19,7 +19,7 @@ I built this clone of Netflix to prove that I could rebuild it from scratch with
 Upon cloning the repo to your local machine, you just need to run `npm install` 
 
 # Contributing
-Due to this being a small project for my portfolio I cam not open to contributions at this time.
+Due to this being a small project for my portfolio I am not open to contributions at this time.
 
 # Credits
 Lead Developer - Brandon Phillips
